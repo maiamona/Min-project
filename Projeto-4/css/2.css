@@ -1,0 +1,15 @@
+header{
+    background: blue;
+    color: white;
+}
+section{
+    background: violet;
+}
+
+article{
+    background: yellow;
+}
+.cor{
+    background: tomato;
+}
+.list-inline {display:inline;}
