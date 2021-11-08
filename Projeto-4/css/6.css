@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --fundo: rgb(15, 129, 150);
+    --fundo-preto: rgb(3, 54, 63);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;/*ou outline: none;*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--fundo);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;/*altura da linha*/
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+form input,
+form label,
+form button{
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--fundo);
+}
+
+form button{
+    border: none;
+    background: var(--fundo);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--fundo-preto);
+}
+
+/* aula 2 */
+/* table tr th{
+    padding: 0 83px;
+}
+table tr th:first-child{
+    padding-left: 1px;
+} */
+
+table tr th{
+    padding: 0 83px;
+}
+
+.paragrafo-resultado, .bad{
+    background: rgb(69, 236, 139);
+    padding: 10px 20px;
+}
+
+.bad{
+    background: rgb(233, 51, 6);
+}
+
+strong{
+    text-transform: uppercase;
+}
