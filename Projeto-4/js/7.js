@@ -70,6 +70,6 @@ const opcoes = {
     weekday: 'long'
 };
 
-diaAno2.innerHTML = `${d.toLocaleDateString('pt-BR', opcoes)} ${d.toLocaleTimeString('en-US', { hour12: false })}`;
+diaAno2.innerHTML = `${d.toLocaleDateString('pt-BR', opcoes)} ${d.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute:'2-digit' })}`;
 
 diaAno.innerHTML = `${diaSemanaTexto}, ${dia} de ${monthNames[mes]} de ${ano} ${hora}:${min}`;
