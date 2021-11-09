@@ -11,25 +11,25 @@ function getDiaSemanaTexto(diaSemana2) {
 
     switch (diaSemana2) {
         case 0:
-            diaSemanaTexto = 'Domingo';   
+            diaSemanaTexto = 'domingo';   
             break;
         case 1:
-            diaSemanaTexto = 'Segunda-feira';   
+            diaSemanaTexto = 'segunda-feira';   
             break;
         case 2:
-            diaSemanaTexto = 'Terça-feira';   
+            diaSemanaTexto = 'terça-feira';   
             break;
         case 3:
-            diaSemanaTexto = 'Quarta-feira';   
+            diaSemanaTexto = 'quarta-feira';   
             break;
         case 4:
-            diaSemanaTexto = 'Quinta-feira';   
+            diaSemanaTexto = 'quinta-feira';   
             break;
         case 5:
-            diaSemanaTexto = 'Sexta-feira';   
+            diaSemanaTexto = 'sexta-feira';   
             break;
         case 6:
-            diaSemanaTexto = 'Sabado';   
+            diaSemanaTexto = 'sabado';   
             break;
     
         default:
