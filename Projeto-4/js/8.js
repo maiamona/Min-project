@@ -10,6 +10,7 @@ const elementos = [// array de objetos
 
 
 var container = document.querySelector(".container");
+var div = document.createElement("div");
 
 // var div = document.createElement("div");
 // var footer = document.createElement("footer");
@@ -22,9 +23,11 @@ var container = document.querySelector(".container");
 for (let i = 0; i < elementos.length; i++) {
      // container.appendChild(criarElemento(elementos[i].tag, elementos[i].cor, elementos[i].texto));//ciar o elemento apartir do ultimo elemento 
      let {tag, cor, texto} = elementos[i];
-     container.appendChild(criarElemento(tag, cor, texto));
+     div.appendChild(criarElemento(tag, cor, texto));
     
 }
+
+container.appendChild(div);
 
 function criarElemento(elemento, classe, texto) {
     var p = document.createElement(elemento);
