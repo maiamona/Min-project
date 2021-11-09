@@ -20,7 +20,9 @@ var container = document.querySelector(".container");
 // container.appendChild(criarElemento(elementos[0].tag, elementos[0].cor, elementos[0].texto));
 
 for (let i = 0; i < elementos.length; i++) {
-    container.appendChild(criarElemento(elementos[i].tag, elementos[i].cor, elementos[i].texto));
+     // container.appendChild(criarElemento(elementos[i].tag, elementos[i].cor, elementos[i].texto));//ciar o elemento apartir do ultimo elemento 
+     let {tag, cor, texto} = elementos[i];
+     container.appendChild(criarElemento(tag, cor, texto));
     
 }
 
