@@ -84,3 +84,21 @@ table tr th{
 strong{
     text-transform: uppercase;
 }
+
+/* exercicio 11 */
+
+.p{
+    background: #6495ED;  
+  }
+  
+  .div{
+      background: #9FE2BF;
+  }
+  
+  .footer{
+      background: #CCCCFF;
+  }
+  
+  .section{
+      background: #40E0D0;
+  }
