@@ -1,4 +1,5 @@
-var diaAno = document.getElementById('data')
+var diaAno = document.getElementById('data');
+var diaAno2 = document.getElementById('data2');
 
 const monthNames = ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
 "Julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
@@ -58,5 +59,17 @@ let diaSemanaTexto = getDiaSemanaTexto(diaSemana);
 // console.log( diaSemanaTexto, dia, ano, hora, min); 
 
 // console.log("O mês atual é " + monthNames[mes]);
+
+
+// ou podemos utilizar o codigo (ver na documentação)
+const opcoes = {
+    
+    year: 'numeric', 
+    month: 'long', 
+    day: '2-digit' ,
+    weekday: 'long'
+};
+
+diaAno2.innerHTML = `${d.toLocaleDateString('pt-BR', opcoes)} ${d.toLocaleTimeString('en-US', { hour12: false })}`;
 
 diaAno.innerHTML = `${diaSemanaTexto}, ${dia} de ${monthNames[mes]} de ${ano} ${hora}:${min}`;
