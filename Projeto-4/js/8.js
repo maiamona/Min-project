@@ -23,8 +23,9 @@ var div = document.createElement("div");
 for (let i = 0; i < elementos.length; i++) {
      // container.appendChild(criarElemento(elementos[i].tag, elementos[i].cor, elementos[i].texto));//ciar o elemento apartir do ultimo elemento 
      let {tag, cor, texto} = elementos[i];
+     // let textoCriado = document.createTextNode(texto);
      div.appendChild(criarElemento(tag, cor, texto));
-    
+    // div.appendChild(textoCriado);
 }
 
 container.appendChild(div);
