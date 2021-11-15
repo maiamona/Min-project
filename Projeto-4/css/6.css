@@ -102,3 +102,12 @@ strong{
   .section{
       background: #40E0D0;
   }
+
+  /* aula 6 */
+  .resultado-6{
+    font-size: 60px;
+  }
+
+  .pausado{
+      color: red;
+  }
