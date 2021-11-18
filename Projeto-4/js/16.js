@@ -62,6 +62,7 @@ cliqueBotoes(){
 },
 btnParaDisplay(valor){
 this.display.value += valor;//concatenamos o que estiver no display dele
+this.display.focus();
 }
     };
 }

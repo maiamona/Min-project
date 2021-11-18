@@ -59,7 +59,8 @@ function CriaCalculadora() {
                 }
                 this.btnParaDisplay = function(valor){
                     this.display.value += valor;//concatenamos o que estiver no display dele
-                    }
+                    this.display.focus();
+                }
 }
 
 const calculadora = new CriaCalculadora();
