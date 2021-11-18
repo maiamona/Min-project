@@ -136,3 +136,47 @@ strong{
   background: #6b6a6a; 
   color: #fff;
 }
+
+/* calculadora 2 */
+
+.btn2{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+}
+
+  .btn-eq2{
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+  }
+
+  .btn-num-m{
+    background: #abacad !important;
+    color: #202124 !important;
+    border: 1px solid #abacad;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .btn-num-n{
+    background: #dddfe0 !important;
+    color: #202124 !important;
+    border: 1px solid #dddfe0;
+    border-radius: 4px;
+  }
+
+  .display2{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    height: 72px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: auto;
+  padding: 10px 14px 0 10px;
+  box-sizing: border-box;
+}

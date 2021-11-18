@@ -67,4 +67,5 @@ this.display.value += valor;//concatenamos o que estiver no display dele
 }
 
 const calculadora = criaCalculadora();
-calculadora.inicia()
+calculadora.inicia();
+console.log('calculadora utilizando a função fabrica');
