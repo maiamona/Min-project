@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/6.css">
+</head>
+<body>
+    <a style="float: right; color: white;" href="./index.html">Voltar</a>
+    <section class="container">
+
+      
+       <h1>Formulário de cadastro</h1>
+       <ul>
+           <li>Nenhum campo pode estar vazio</li>
+           <li>Usuário só poderá conter letras e/ou números</li>
+           <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+           <li>Senhs precisa ter entre 6 e 12 caracteres</li>
+       </ul>
+        <form action="/Projeto-4/19.html" id="form" method="get">
+            <label>Nome:</label>
+            <input type="text" class="nome validar"><!-- não pesisamos do 'name=""' no 'input' porque não estamos a trabalhar com Backend -->
+            <label>Sobrenome:</label>
+            <input type="text" class="sobrenome validar">
+            <label>CPF:</label>
+            <input type="text" class="cpf validar">
+            <label>Usuário:</label>
+            <input type="text" class="usuario validar">
+            <label>Senha:</label>
+            <input type="password" class="senha validar">
+            <label>Repetir Senha:</label>
+            <input type="password" class="repetir-senha validar">
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <script src="./js/18.js"></script>
+        <script src="./js/19.js"></script>
+    </section>
+</body>
+
+</html>
