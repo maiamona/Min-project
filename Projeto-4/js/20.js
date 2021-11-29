@@ -25,29 +25,21 @@ function carregaElementosNaPagina(json) {
     for (let pessoa of json) {
         const tr = document.createElement('tr');
 
-        let td1 = criaElemento(pessoa.nome);
-        tr.appendChild(td1);
+        tr.appendChild(criaElemento(pessoa.nome));
 
-        let td2 = criaElemento(pessoa.email);
-        tr.appendChild(td2);
+        tr.appendChild(criaElemento(pessoa.email));
 
-        let td3 = criaElemento(pessoa.salario);
-        tr.appendChild(td3);
+        tr.appendChild(criaElemento(pessoa.salario));
 
-        let td4 = criaElemento(pessoa.estado);
-        tr.appendChild(td4);
+        tr.appendChild(criaElemento(pessoa.estado));
 
-        let td5 = criaElemento(pessoa.empresa);
-        tr.appendChild(td5);
+        tr.appendChild(criaElemento(pessoa.empresa));
 
-        let td6 = criaElemento(pessoa.idade);
-        tr.appendChild(td6);
+        tr.appendChild(criaElemento(pessoa.idade));
 
-        let td7 = criaElemento(pessoa.sexo);
-        tr.appendChild(td7);
+        tr.appendChild(criaElemento(pessoa.sexo));
 
-        let td8 = criaElemento(pessoa.cpf);
-        tr.appendChild(td8);
+        tr.appendChild(criaElemento(pessoa.cpf));
 
         tBody.appendChild(tr);
     }
