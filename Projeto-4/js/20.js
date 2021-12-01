@@ -22,6 +22,14 @@ function criaElemento(dados) {
 function carregaElementosNaPagina(json) {
     const table = document.querySelector('.table');
     const tBody = document.createElement('tbody');
+
+    json.forEach(obj => {
+        Object.entries(obj).forEach(([key, value]) => {
+            console.log(`${key}: ${value}`);
+        });
+        console.log('-------------------');
+    });
+
     for (let pessoa of json) {
         const tr = document.createElement('tr');
 
